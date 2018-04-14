@@ -4,6 +4,7 @@ body {
   display: grid;
   grid-template-columns: 15% 85%;
   grid-template-rows: 5% 12.8% 82.2%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -17,7 +18,7 @@ main {
 }
 
 aside {
-  border: 1px solid purple;
+  border: 1px solid #303848;
   box-sizing: border-box;
 }
 
@@ -29,29 +30,118 @@ aside {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: span 3;
+  background-color: #374050;
+  font-weight: 600;
+  color: #C0C9DB;
 }
 
 
 .profile-aside  {
+  display: flex;
+  flex-direction: column;
   height: 11.5%;
   width: 100%;
 }
 
+.profile-aside-image {
+  height: 50%;
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  border-radius: 9rem;
+}
+
+.profile-icon {
+  width: 1rem;
+  justify-content: right;
+}
+
+.profile-aside select {
+  margin: .5rem auto 0 auto;
+  font-size: 1rem;
+  width: 50%;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #374050;
+  color: #C0C9DB;
+}
+
 .main-aside {
-  height: 18.75%;
+  display: flex;
+  height: 19.75%;
   width: 100%;
 }
 
-.admin-aside  {
-  height: 18.75%;
+.admin-aside {
+  display: flex;
+  height: 19.75%;
   width: 100%;
 }
 
-.catagory-aside {
-  height: 51%;
+.catagories-aside {
+  display: flex;
+  height: 49%;
   width: 100%;
 }
 
+.nav-headings {
+  padding-left: 0 0 0 1rem;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #7F8CA4;
+}
+
+.main-aside ul, 
+.admin-aside ul, 
+.catagories-aside ul {
+  width: 100%;
+  padding: .75rem 0;
+}
+
+.main-aside li , 
+.catagories-aside li,
+.admin-aside li{
+  width: 90%;
+  padding: .85rem 0 .85rem 1rem;
+  font-size: 1rem;
+}
+
+.main-aside li:hover,
+.admin-aside li:hover {
+  border-left: 2px solid cyan;
+  background-color: #303848;
+  color: white;
+}
+
+.side-nav-icons {
+  height: 1.25rem;
+  padding-right: 1rem;
+}
+/*
+.home-icon {
+  background-image: url('images/home.png');
+}
+
+.home-icon:hover {
+  image-rendering: url('images/home-copy.png');
+}
+*/
+/*
+.jobs-icon" src
+.resumes-icon" 
+.tasks-icon" sr
+.calendar-icon"
+.users-icon" sr
+.locations-icon
+.workflows-icon
+.jobboards-icon
+.social-icon" s
+.yellowbox-icon
+.bluebox-icon" 
+.redbox-icon" s
+.greenbox-icon"
+*/
 /*-------search bar stylez------*/
 
 
@@ -130,3 +220,4 @@ aside {
 
 
 
+.
