@@ -1,0 +1,132 @@
+body {
+  height: 100rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 5% 12.8% 82.2%;
+}
+
+section {
+  border: 1px solid slategrey;
+  box-sizing: border-box;
+}
+
+main {
+  border: 1px solid green;
+  box-sizing: border-box;
+}
+
+aside {
+  border: 1px solid purple;
+  box-sizing: border-box;
+}
+
+
+/*----------side nav styles-----*/
+
+
+.side-nav-section {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: span 3;
+}
+
+
+.profile-aside  {
+  height: 11.5%;
+  width: 100%;
+}
+
+.main-aside {
+  height: 18.75%;
+  width: 100%;
+}
+
+.admin-aside  {
+  height: 18.75%;
+  width: 100%;
+}
+
+.catagory-aside {
+  height: 51%;
+  width: 100%;
+}
+
+/*-------search bar stylez------*/
+
+
+.search-bar-section {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+  /*--------top menu styles-------*/
+
+
+.top-menu-section {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/*
+.top-nav-section {
+
+}
+*/
+
+
+
+/*-----------bottom section styles----------*/
+
+
+.bottom-section {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+
+  /*---------------graphs section styles-----*/
+
+
+.graphs-section {
+  height: 29%;
+  width: 100%;
+}
+
+/*    <main class="donut-graphs"></main>
+    <main class="bar-graphs"></main>
+*/
+
+
+
+.table-section {
+  height: inherit;
+  width: 100%;
+}
+
+  /*
+    <main class="jobs-table"></main>
+    <main class="contacts-table"></main>
+  </section>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
