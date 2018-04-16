@@ -17,11 +17,6 @@ main {
   box-sizing: border-box;
 }
 
-aside {
-  box-sizing: border-box;
-  border: 1px solid #303848;
-}
-
 /*----------side nav styles-----*/
 
 .side-nav-section {
@@ -31,6 +26,11 @@ aside {
   background-color: #374050;
   font-weight: 600;
   color: #C0C9DB;
+}
+
+.side-nav-section aside {
+  box-sizing: border-box;
+  border: 1px solid #303848;
 }
 
 .profile-aside  {
@@ -462,10 +462,30 @@ tbody img {
 ---------
 .contacts-table {
   display: inline-block;
+  display: flex;
+  flex-direction: row;
   border: 1px solid pink;
   height: inherit;
-  width: 30%;
+  width: 21rem;
+}
 
+.media-button{
+  display: block;
+  height: 3.25rem;
+  width: 100%;
+  margin-bottom: 1.25rem
+}
+
+.contacts-table img {
+  height: 2rem;
+}
+
+.contacts-table h3 {
+
+}
+
+.contacts-table p {
+  width: 21rem;
 }
 
 
@@ -477,8 +497,3 @@ tbody img {
 
 
 
-
-
-
-
-.
