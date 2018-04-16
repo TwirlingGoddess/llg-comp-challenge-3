@@ -1,30 +1,28 @@
 body {
-  height: 100rem;
-  width: 100%;
   display: grid;
+  box-sizing: border-box;
   grid-template-columns: 15% 85%;
   grid-template-rows: 5% 12.8% 82.2%;
+  height: 100rem;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
 section {
-  border: 1px solid #f5f5f5;
   box-sizing: border-box;
+  border: 1px solid #f5f5f5;
 }
 
 main {
-  border: 1px solid green;
   box-sizing: border-box;
 }
 
 aside {
-  border: 1px solid #303848;
   box-sizing: border-box;
+  border: 1px solid #303848;
 }
 
-
 /*----------side nav styles-----*/
-
 
 .side-nav-section {
   grid-column-start: 1;
@@ -35,7 +33,6 @@ aside {
   color: #C0C9DB;
 }
 
-
 .profile-aside  {
   display: flex;
   flex-direction: column;
@@ -44,15 +41,15 @@ aside {
 }
 
 .profile-aside-image {
+  margin: 2rem auto 0 auto;
   height: 50%;
   width: 50%;
-  margin: 2rem auto 0 auto;
   border-radius: 9rem;
 }
 
 .profile-icon {
-  width: 1rem;
   justify-content:  right;
+  width: 1rem;
 }
 
 .profile-aside select {
@@ -144,7 +141,6 @@ aside {
 */
 /*-------search bar stylez------*/
 
-
 .search-bar-section {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -176,13 +172,13 @@ section article {
   height: 5rem;
   width: 68%;
   padding-left: 5rem;
-  background-image:url('images/search.png');
-  background-repeat:no-repeat;
+  background-image: url('images/search.png');
+  background-repeat: no-repeat;
   background-position: 4% center;
-  border: none;
-  border:1px solid #f5f5f5;
-  font-size:13px;
-  color:gray;
+  border-top: .02rem solid #f5f5f5;
+  border-left: .05rem solid lightgrey;
+  font-size: .75rem;
+  color: gray;
 }
 
 .search-bar-section input::placeholder {
@@ -225,7 +221,6 @@ section article {
 
   /*--------top menu styles-------*/
 
-
 .top-menu-section {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -243,6 +238,7 @@ section article {
 
 .title-main h1 {
   font-size: 2rem;
+  font-weight: 400;
 }
 
 .title-main h2 {
@@ -260,6 +256,7 @@ section article {
   display: flex;
   float: right;
   margin-top: 3rem;
+  padding-left: .5rem;
   height: 3rem;
   width: 30%;
 }
@@ -269,38 +266,69 @@ section article {
   margin: 0 .5rem;
   background-color: transparent;
   border-radius: 9rem 9rem;
+  border: 1.5px solid lightgrey;
   color: grey;
+}
+
+.buttons-main button:hover {
+  border: 1.5px solid grey;
 }
 
 .beyonce-button {
   width: 6rem;
-  /*padding: .5rem 0;*/
+}
+
+.beyonce-button img {
+  padding-right: .25rem;
 }
 
 .side-buttons {
   width: 3rem;
 }
 
-.buttons-main img {
-  padding-right: .25rem;
+.side-button1 {
+  background-image: url('images/side-button1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.side-button2 {
+  background-image: url('images/side-button2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.side-button3 {
+  background-image: url('images/side-button3.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.top-nav-main {
+  padding: 0 17.5rem 0 3rem;
+  box-sizing: border-box;
 }
 
 .top-nav-main ul {
   display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
   height: 4rem;
   width: 100%;
-  padding-right: 3rem;
 }
 
 .top-nav-main li {
-  padding: 1.5rem 0;
-  margin: 0 .5rem 0 3rem;
+  padding: 1.5rem .05rem;
+  box-sizing: border-box;
   font-size: .85rem;
   font-weight: 600;
 }
 
-
-
+.top-nav-main li:hover {
+  color: black;
+  font-weight: 700;
+  border-bottom: 2px solid #44A4F3;
+}
 
 /*-----------bottom section styles----------*/
 
@@ -310,8 +338,19 @@ section article {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+  background-color: #EEF2F6;
+  padding: 3rem;
 }
 
+hr {
+  display: inline-block;
+  width: 47%;
+}
+
+.mid-page-arrow {
+  display: inline-block;
+  height: 1.75rem;
+}
 
   /*---------------graphs section styles-----*/
 
@@ -321,22 +360,26 @@ section article {
   width: 100%;
 }
 
-/*    <main class="donut-graphs"></main>
-    <main class="bar-graphs"></main>
-*/
+.donut-graphs {
 
+}
 
+.bar-graphs {
+
+}
 
 .table-section {
   height: inherit;
   width: 100%;
 }
 
-  /*
-    <main class="jobs-table"></main>
-    <main class="contacts-table"></main>
-  </section>
-*/
+.jobs-table {
+
+}
+
+.contacts-table {
+
+}
 
 
 
