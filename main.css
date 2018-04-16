@@ -372,7 +372,8 @@ section article {
 }
 
 .bar-graphs {
-
+  float: right;
+  padding-top: 3rem;
 }
 
 /*-----------tables section styles--------/*/
@@ -469,28 +470,66 @@ tbody img {
   width: 21rem;
 }
 
-.media-button{
+.media-button {
   display: block;
   height: 3.25rem;
   width: 100%;
-  margin-bottom: 1.25rem
+  margin-bottom: 1.25rem;
+  color: #fff;
+  padding: .75rem 0rem .5rem .75rem;
+  font-size: 1.05rem;
 }
 
-.contacts-table img {
-  height: 2rem;
+.media-button img {
+  float: left;
+  padding-left: .5rem;
+}
+
+.facebook-btn {
+  background-color: #4F70BD;
+}
+
+.twitter-btn {
+  background-color: #45AAEA;
+}
+
+.linked-btn {
+  background-color: #3280B7;
 }
 
 .contacts-table h3 {
-
+  display: inline-block;
+  padding: 1.2rem 0 0 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #717E93;
 }
 
 .contacts-table p {
   width: 21rem;
+  padding: .75rem 0;
+  box-sizing: border-box;
+  line-height: 1.4rem;
+  font-size: .90rem;
+  color: #717E93;
 }
 
+.contacts-table input {
+  z-index: -1;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  height: 3rem;
+  width: 85%;
+  font-size: 1rem;
+}
 
-
-
+aside button {
+  display: inline-block;
+  height: 3rem;
+  background-color: teal;
+  color: white;
+} 
 
 
 
