@@ -1,0 +1,5 @@
+
+.icon-th-list:before { content: '\e800'; } /* '' */
+.icon-th:before { content: '\e801'; } /* '' */
+.icon-calendar:before { content: '\e802'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */
