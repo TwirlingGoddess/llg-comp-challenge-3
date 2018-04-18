@@ -65,6 +65,12 @@ main {
   appearance: none;
   background-color: #374050;
   color: #C0C9DB;
+  cursor: pointer;
+}
+
+.profile-aside select:hover {
+  color: white;
+  background-color: #303848;
 }
 
 .profile-aside nav {
@@ -113,6 +119,7 @@ main {
   width: 90%;
   padding: .85rem 0 .85rem 1rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .main-aside li:hover,
@@ -131,7 +138,7 @@ main {
   opacity: .1;
 }
 
-.catagories-aside i:hover,{
+.catagories-aside i:hover {
   opacity: .99;
   color: black;
   font-size: 1.25rem;
@@ -148,6 +155,7 @@ main {
   width: 1.75rem;
   padding-left: .25rem;
   margin: 0 .5rem 0 -.25rem;
+  cursor: pointer;
 }
 
 .yellowbox-icon {
@@ -260,6 +268,7 @@ main {
   padding-left: .25rem;
   text-decoration-line: none;
   color: #72e0fc;
+  cursor: pointer;
 }
 
 .buttons-main {
@@ -278,13 +287,14 @@ main {
   border-radius: 9rem 9rem;
   border: 1.5px solid lightgrey;
   color: grey;
+  cursor: pointer;
 }
 
 .buttons-main button:hover {
   border: 1.5px solid lightgrey;
   -webkit-box-shadow: 3px 4px 5px grey;
   -moz-box-shadow: 3px 4px 5px grey;
-  box-shadow: 3px 4px 5px grey;
+  box-shadow: 3px 4px 5px #717E93;
   background-color: #f5f5f5;
 }
 
@@ -338,6 +348,7 @@ main {
   box-sizing: border-box;
   font-size: .85rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .top-nav-main li:hover {
@@ -370,9 +381,17 @@ main {
 }
 
 .mid-page-arrow {
+  border-radius: 9rem;
   display: inline-block;
   height: 1.75rem;
   margin: 0 .75rem;
+  cursor: pointer;
+}
+
+.mid-page-arrow:hover {
+  -webkit-box-shadow: 3px 4px 5px grey;
+  -moz-box-shadow: 3px 4px 5px grey;
+  box-shadow: 3px 4px 5px #717E93;
 }
 
   /*---------------graphs section styles-----*/
@@ -405,6 +424,7 @@ main {
   color: #717E93;
   font-size: .75rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .graphs-section button:hover {
@@ -529,12 +549,13 @@ thead td {
   background-color: #7D8BA4;
   font-size: .75rem;
   color: #fff;
+  cursor: pointer;
 }
 
 thead td:hover {
-  border: 1px solid #d5d5d5;
+  border: .009rem solid #d5d5d5;
   -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 3px 4px 5px #717E93;
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -597,9 +618,16 @@ tbody img {
   margin-bottom: 1.25rem;
   color: #fff;
   font-size: 1.05rem;
+  -webkit-box-shadow: 3px 4px 5px lightgrey;
+  -moz-box-shadow: 3px 4px 5px lightgrey;
+  box-shadow: 3px 4px 5px lightgrey;
+  cursor: pointer;
+}
+
+.media-button:hover {
   -webkit-box-shadow: 3px 4px 5px grey;
   -moz-box-shadow: 3px 4px 5px grey;
-  box-shadow: 3px 4px 5px grey;
+  box-shadow: 3px 4px 5px #717E93;
 }
 
 .media-button img {
@@ -648,9 +676,17 @@ tbody img {
 .contacts-asides button {
   display: inline-block;
   height: 3rem;
+  margin-left: -1rem;
   background-color: #66B8BF;
   color: white;
+  cursor: pointer;
 } 
+
+.contacts-asides button:hover {
+  -webkit-box-shadow:  3px 4px 5px grey;
+  -moz-box-shadow:  3px 4px 5px grey;
+  box-shadow:  3px 4px 5px #717E93;
+  }
 
 .contacts-asides h3 {
   display: flex;
