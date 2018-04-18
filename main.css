@@ -1,3 +1,5 @@
+/*-------------blanket stylings---------*/
+  
 body {
   display: grid;
   box-sizing: border-box;
@@ -119,14 +121,14 @@ main {
   width: 90%;
   padding: .85rem 0 .85rem 1rem;
   font-size: 1rem;
-  cursor: pointer;
 }
 
-.main-aside li:hover,
-.admin-aside li:hover {
+.main-aside .list-items:hover,
+.admin-aside .list-items:hover {
   border-left: 2px solid #409EF3;
   background-color: #303848;
   color: white;
+  cursor: pointer;
 }
 
 .side-nav-icons {
@@ -136,6 +138,7 @@ main {
 
 .catagories-aside i {
   opacity: .1;
+  cursor: pointer;
 }
 
 .catagories-aside i:hover {
@@ -155,7 +158,6 @@ main {
   width: 1.75rem;
   padding-left: .25rem;
   margin: 0 .5rem 0 -.25rem;
-  cursor: pointer;
 }
 
 .yellowbox-icon {
@@ -498,7 +500,8 @@ main {
 }
 
 .bar-graphs button {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  height: 2.75rem; 
   border-radius: 9rem;
 }
 
@@ -699,9 +702,254 @@ tbody img {
 }
 
 .contacts-table hr {
-  color: ;
+  color: #717E93;
   margin: 1.25rem 0;
+  height: .1rem;
   width: inherit;
 }
 
+/*--------------media queries-----------*/
 
+@media screen and (max-width: 1250px) {
+  .side-nav-section {
+    grid-column-start: 0;
+    grid-column-end: 0;
+    grid-row-start: 0;
+    grid-row-end: 0;
+    overflow: hidden;
+    transition: all 1s;
+  }
+
+  .search-bar-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: all 1s;
+  }
+
+  .top-menu-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: all 1s;
+  }
+
+  .bottom-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 2.5rem;
+    transition: all 1s;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .top-nav-main {
+    padding: 0 3rem;
+    transition: 1s;
+  }
+
+  .bar-graphs {
+    margin-top: 1rem;
+    transition: 1s;
+  }
+
+  .bar-graphs button {
+    margin-top: 6rem;
+    transition: 1s;
+  }
+
+  .hr1, .hr2 {
+    width: 45%;
+    transition: all 1s;
+  }
+
+  .jobs-table {
+    height: 46%;
+    width: 57%;
+    transition: all 1s;
+  }
+
+  .jobs-table thead {
+    width: 95%;
+    transition: 1s;
+  }
+
+  .bottom-section {
+    padding: 2rem;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 915px) {
+
+  .jobs-table {
+    height: inherit;
+    transition: 1s;
+  }
+
+  .bottom-section {
+    padding: 1.5rem;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .bottom-section {
+    padding: 1rem;
+    transition: 1s;
+  }
+
+  .bar-graphs {
+    margin-top: 2rem;
+    transition: 1s;
+  }
+
+  .jobs-table thead {
+    width: 93.5%;
+    transition: 1s
+  }
+
+  .jobs-table {
+    width: 54%;
+    transition: 1s
+  }
+}
+
+@media screen and (max-width: 775px) {
+  body {
+    height: 130rem;
+  }
+
+  .search-bar-section{
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 2;
+    transition: all 1s;
+    border-bottom: .1rem solid grey;
+  }
+  
+  .top-menu-section {
+    position: fixed;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+    z-index: 1;
+    transition: all 1s;
+  }
+
+  .top-menu-section li {
+    font-size: .75rem;
+    transition: 1s;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -2rem;
+    height: 125rem;
+    transition: all 1s;
+  }
+  
+  .graphs-section {
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+  }
+
+  .donut-graphs {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: all 1s;
+    height: 30rem;
+  }
+
+  .donut-graphs svg{
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .donut-graphs button {
+    margin-bottom: -100;
+  }
+
+  .bar-graphs {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: all 1s;
+    padding-top: 6rem;
+    width: 100%;
+    height: 30rem;
+    justify-content: space-around;
+  }
+
+  .bar-graphs button {
+    margin-top: 1rem;
+  }
+
+  .hr1, .hr2, .mid-page-arrow {
+    z-index: -3;
+  }
+
+  .table-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    transition: all 1s;
+    margin-top: 0;
+  }
+
+  .jobs-table {
+    width: 99%;
+    height: 55rem;
+    transition: all 1s;
+  }
+
+  .contacts-table {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: all 1s;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar-section {
+    position: relative;
+    z-index: -2;
+  }  
+
+  .top-menu-section {
+    position: relative;
+    padding-top: 0;
+  }
+
+
+  .top-menu-section li {
+    overflow: hidden;
+  }
+
+  .top-nav-main {
+    padding: 0;
+    font-size: .5rem;
+    margin-top: -100rem;
+  }
+  
+  .title-main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .buttons-section {
+    position: absolute;
+  }
+
+  .donut-graphs svg{
+    height: 6rem;
+    width: 6rem;
+  }
+
+  h1 {
+    font-size: .8rem;
+  }
+}
