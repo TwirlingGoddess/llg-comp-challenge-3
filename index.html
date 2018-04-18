@@ -13,12 +13,12 @@
   <body>
     <section class="side-nav-section">
       <aside class="profile-aside">
-        <img src="images/headshot.jpg" class="profile-aside-image">
-        <nav>
+        <img alt="this is a profile picture" src="images/headshot.jpg" class="profile-aside-image">
+        <nav role="to select a profile">
         <select>
           <option>Lee Graham</option></select>
           <img alt="icons for the side nav menu" class="side-nav-icons profile-icon" src="images/arrow.png">
-          </nav>
+        </nav>
       </aside>
       <aside class="main-aside">
         <ul>
@@ -65,153 +65,145 @@
         <i class="icon-th"></i>
       </article>
     </section>
-
     <section class="top-menu-section">
-      <main class="title-main">
+      <main class="title-main" aria-label="this is the main heading area of the page, complete with navigation buttons">
         <h1>Customer Service Representative</h1>
         <h2>
           <img alt="current location icon" src="images/current-location.png"> San Francisco, CA  + 
-          <a rel="stylesheet" type="text/css" href="https://turing.io" target="_blank">Preview this post</a></h2>
+          <a aria-label="to the turing school of design homepage" rel="stylesheet" type="text/css" href="https://turing.io" target="_blank">Preview this post</a></h2>
       </main>
       <main class="buttons-main">
-        <button class="beyonce-button"><img arie-label="icon to signal online presence" src="images/online-circle.png">OPEN</button>
-        <button class="side-button1 side-buttons"></button>
-        <button class="side-button2 side-buttons"></button>
-        <button class="side-button3 side-buttons"></button>
+        <button aria-label="this button signals your online presence" class="beyonce-button"><img aria-label="icon to signal online presence" src="images/online-circle.png">OPEN</button>
+        <button aria-label="this button acts as a flag" class="side-button1 side-buttons"></button>
+        <button aria-label="this button is used to edit material" class="side-button2 side-buttons"></button>
+        <button aria-label="this button acts as a trash can to discard material" class="side-button3 side-buttons"></button>
       </main>
-      <main class="top-nav-main">
-          <ul>
-            <li>SUMMARY</li>
-            <li>APPLICANTS</li>
-            <li>JOB BOARD</li>
-            <li>INTERVIEWS</li>
-            <li>ACTIVITY</li>
-            <li>BROADCAST</li>
-            <li>NOTIFICATIONS</li>
-          </ul>
+      <main aria-label="this is the main navigation area, please click on a link" class="top-nav-main">
+        <ul>
+          <li aria-label="press enter to navigate to the summary page">SUMMARY</li>
+          <li aria-label="press enter to navigate to the applicants page">APPLICANTS</li>
+          <li aria-label="press enter to navigate to the job board page">JOB BOARD</li>
+          <li aria-label="press enter to navigate to the interviews page">INTERVIEWS</li>
+          <li aria-label="press enter to navigate to the activity page">ACTIVITY</li>
+          <li aria-label="press enter to navigate to the broadcast page">BROADCAST</li>
+          <li aria-label="press enter to navigate to the notifications page">NOTIFICATIONS</li>
+        </ul>
       </main>
     </section>
-
     <section class="bottom-section">
-      <section class="graphs-section">
-        <main class="donut-graphs">
-
-<aside>
-<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
-
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#66B8BF" stroke-width="2" stroke-dasharray="85 15" stroke-dashoffset="75" stroke-linecap="round"></circle>
-  <g class="chart-text">
-    <text x="50%" y="50%" class="chart-number">
-      3,154
-    </text>
-    <text x="50%" y="50%" class="chart-label">
-      Applicants
-    </text>
-  </g>
-</svg>
-
-<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#409EF3" stroke-width="2" stroke-dasharray="40 60" stroke-dashoffset="75" stroke-linecap="round"></circle>
-  <g class="chart-text">
-    <text x="50%" y="50%" class="chart-number">
-      1,546
-    </text>
-    <text x="50%" y="50%" class="chart-label">
-      Interviews
-    </text>
-  </g>
-</svg>
-
-<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A46CAC" stroke-width="2" stroke-dasharray="20 80" stroke-dashoffset="75" stroke-linecap="round"></circle>
-  <g class="chart-text">
-    <text x="50%" y="50%" class="chart-number">
-      912
-    </text>
-    <text x="50%" y="50%" class="chart-label">
-      Forwards
-    </text>
-  </g>
-</svg>
-</aside>
-  <button>TOTALS - Out of <strong>5,231</strong> views</button>
+      <section aria-label="this section contains graphs and charts" class="graphs-section">
+        <main aria-label="this is a donut chart showing the number of people hired from a pool of 3,154 people" class="donut-graphs">
+          <aside>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#66B8BF" stroke-width="2" stroke-dasharray="85 15" stroke-dashoffset="75" stroke-linecap="round"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  3,154
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Applicants
+                </text>
+              </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#409EF3" stroke-width="2" stroke-dasharray="40 60" stroke-dashoffset="75" stroke-linecap="round"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  1,546
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Interviews
+                </text>
+              </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A46CAC" stroke-width="2" stroke-dasharray="20 80" stroke-dashoffset="75" stroke-linecap="round"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  912
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Forwards
+                </text>
+              </g>
+            </svg>
+          </aside>
+          <button aria-lable="this button gives us a total of all interactions combined">TOTALS - Out of <strong>5,231</strong> views</button>
         </main>
-        <main class="bar-graphs">
-          <img alt="this is a bar graph" src="images/bar-graph-image.png">
-          <button>APPLICANTS/DAY</button>
+        <main aria-label="this area contains a bar graph of applicants" class="bar-graphs">
+          <img alt="this is an image of a bar graph showing how many applicants we see per day" src="images/bar-graph-image.png">
+          <button aria-live="this button will take us to more stats regarding the applicants">APPLICANTS/DAY</button>
         </main>
       </section>
-      <hr class="hr1">
-      <img class="mid-page-arrow" src="images/middle-arrow.png">
-      <hr class="hr2">
-      <section class="table-section">
-        <table class="jobs-table">
+      <hr class="hr1"><img alt="this is an icon that is used to toggle collapse and expansion of this page" class="mid-page-arrow" src="images/middle-arrow.png"><hr class="hr2">
+      <section aria-label="this section contains tables of job and contact information" class="table-section">
+        <table aria-label="this is a table listing job descriptions with an edittable text buttonin the header" class="jobs-table">
           <thead>
             <tr>
               <th>JOB DESCRIPTION</th>
-              <td><img alt="edit description icon" src="images/edit-job-description.png">EDIT</td>
+              <td><img alt="edit description icon within a button, click to edit job description text" src="images/edit-job-description.png">EDIT</td>
             </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>POSITION TITLE</th>
-                <td>Customer Service Representative</td>
-              </tr>
-              <tr>
-                <th>LOCATION</th>
-                <td>San Francisco, CA</td>
-              </tr>
-              <tr>
-                <th>EMPLOYMENT TYPE</th>
-                <td>Full-time</td>
-              </tr>
-              <tr>
-                <th>EXPERIENCE</th>
-                <td>Mid-level</td>
-              </tr>
-              <tr>
-                <th>STATUS</th>
-                <td>Open</td>
-              </tr>
-              <tr>
-                <th>DESCRIPTION</th>
-                <td>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various aproduct shizzle; helping the bidness reduce customer service wait times while doing a backhandspring and eating a ham sandwich.</td>
-              </tr>
-              <tr>
-                <th>HIRING LEAD</th>
-                <td><img src="images/hbic-headshot.png">K.C. Wellons</td>
-              </tr>
-              <tr>
-                <th>APPROVED SALARY</th>
-                <td class="bold-table">$120,000</td>
-              </tr>
-            </tbody>
-          </table>
-        <main class="contacts-table">
-          <button class="media-button facebook-btn"><img src="images/facebook.png">Post to Facebook</button>
-          <button class="media-button twitter-btn"><img src="images/twitter.png">Tweet this Job</button>
-          <button class="media-button linked-btn"><img src="images/linkedin.png">Post to Linkedin</button>
-          <aside class="contacts-asides">
+          </thead>
+          <tbody>
+            <tr>
+              <th>POSITION TITLE</th>
+              <td>Customer Service Representative</td>
+            </tr>
+            <tr>
+              <th>LOCATION</th>
+              <td>San Francisco, CA</td>
+            </tr>
+            <tr>
+              <th>EMPLOYMENT TYPE</th>
+              <td>Full-time</td>
+            </tr>
+            <tr>
+              <th>EXPERIENCE</th>
+              <td>Mid-level</td>
+            </tr>
+            <tr>
+              <th>STATUS</th>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <th>DESCRIPTION</th>
+              <td>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various aproduct shizzle; helping the bidness reduce customer service wait times while doing a backhandspring and eating a ham sandwich.</td>
+            </tr>
+            <tr>
+              <th>HIRING LEAD</th>
+              <td><img alt="this is the photo of the hiring manager" src="images/hbic-headshot.png">K.C. Wellons</td>
+            </tr>
+            <tr>
+              <th>APPROVED SALARY</th>
+              <td class="bold-table">$120,000</td>
+            </tr>
+          </tbody>
+        </table>
+        <main aria-label="this is a list of ways in which you may contact us regarding consultation" class="contacts-table">
+          <button aria-label="click to post about us via facebook" class="media-button facebook-btn"><img alt="this is an icon of the facebook logo" src="images/facebook.png">Post to Facebook</button>
+          <button aria-label="click to tweet about us via twitter" class="media-button twitter-btn"><img alt="this is an icon of the twitter logo" src="images/twitter.png">Tweet this Job</button>
+          <button aria-label="click to post about us via linked in" class="media-button linked-btn"><img alt="this is an icon of the linked in logo" src="images/linkedin.png">Post to Linkedin</button>
+          <aside aria-label="use this section to copy your website?" class="contacts-asides">
             <h3><img aria-label="icon for links section" class="link-icons" src="images/link-website.png">Link to this Job</h3>
             <p>Lorem ipsum doler sit amet, consectetor adipis ding etc. Integer mollis neque eget vestibpond.</p>
             <input type="url" class="url-input" placeholder="http://loremipsum.dol/sit amet...">
             <button>Copy</button>
           </aside>
           <hr>
-          <aside class="contacts-asides">
+          <aside aria-label="use this section to copy your widgets?" class="contacts-asides">
             <h3><img aria-label="icon for links section" class="link-icons" src="images/widget-icon.png">Use the Button Widget</h3>
             <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
             <input type="text" class="widget-input" placeholder="<script type='text/javascript' s...">
             <button>Copy</button>
           </aside>
           <hr>
-          <aside class="contacts-asides">
+          <aside aria-label="use this section to copy your email?" class="contacts-asides">
             <h3><img aria-label="icon for links section" class="link-icons" src="images/airplane-icon.png">Upload Resumes by Email</h3>
             <p>You can automatically upload multipe resumes to this job by emailing the address below.</p>
             <input type="email" class="email-input" placeholder="tommytizzy@gmail.com"></aside>
