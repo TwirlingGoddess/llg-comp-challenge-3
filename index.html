@@ -6,45 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="icon" type="icon/png" href="http://static1.squarespace.com/static/539a0557e4b0905b3f662bfb/t/55f35f23e4b0f0037bbaaedc/1442012971338/JodyPeekabooFavIcon-01.png?format=1000w">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link  rel="stylesheet" href="fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Encode+Sans:400,500" rel="stylesheet">
+    <link  rel="stylesheet" href="fontello-file/css/fontello.css">
     <title>Static Comp 3</title>
   </head>
   <body>
     <section class="side-nav-section">
       <aside class="profile-aside">
         <img src="images/headshot.jpg" class="profile-aside-image">
+        <nav>
         <select>
           <option>Lee Graham</option></select>
           <img alt="icons for the side nav menu" class="side-nav-icons profile-icon" src="images/arrow.png">
+          </nav>
       </aside>
       <aside class="main-aside">
         <ul>
           <li class="nav-headings">Main</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons home-icon" src="images/home.png">HOME</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons jobs-icon" src="images/jobs.png">JOBS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons resumes-icon" src="images/resumes.png">RESUMES</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons tasks-icon" src="images/tasks.png">TASKS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons calendar-icon" src="images/calendar.png">CALENDAR</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-home-1"></i>HOME</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-suitcase"></i>JOBS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-newspaper"></i>RESUMES</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-clipboard"></i>TASKS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-calendar-1"></i>CALENDAR</li>
         </ul>
       </aside>
       <aside class="admin-aside">
         <ul>
           <li class="nav-headings">Admin</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons users-icon" src="images/users.png">USERS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons locations-icon" src="images/locations.png">LOCATIONS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons workflows-icon" src="images/workflows.png">WORKFLOWS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons jobboards-icon" src="images/jobboards.png">JOB BOARDS</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons social-icon" src="images/social.png">SOCIAL</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-users"></i>USERS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-location"></i>LOCATIONS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-flow-tree"></i>WORKFLOWS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-pinboard"></i>JOB BOARDS</li>
+          <li><i alt="icons for the side nav menu" class="side-nav-icons icon-spread"></i>SOCIAL</li>
         </ul>
       </aside>
       <aside class="catagories-aside">
         <ul>
           <li class="nav-headings">Categories</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons yellowbox-icon" src="images/yellowbox-copy.png">Administrative</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons bluebox-icon" src="images/bluebox-copy.png">Design</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons redbox-icon" src="images/redbox-copy.png">Executive</li>
-          <li><img alt="icons for the side nav menu" class="side-nav-icons greenbox-icon" src="images/greenbox-copy.png">Human Resources</li>
+          <li><nav class="yellowbox-icon"><i alt="icons for the side nav menu" class="side-nav-icons  icon-check"></i></nav>Administrative</li>
+          <li><nav class="bluebox-icon"><i alt="icons for the side nav menu" class="side-nav-icons icon-check"></i></nav>Design</li>
+          <li><nav class="redbox-icon"><i alt="icons for the side nav menu" class="side-nav-icons icon-check"></i></nav>Executive</li>
+          <li><nav class="greenbox-icon"><i alt="icons for the side nav menu" class="side-nav-icons icon-check"></i></nav>Human Resources</li>
         </ul>
       </aside>
     </section>
@@ -53,11 +55,17 @@
         <i class="icon-th-list"></i>
       </article>
       <input type="search" name="search" aria-label="search field, enter text" placeholder="Search for a job, task, or resume">
-      <article aria-label="create a new profile" class="search-button1"></article>
-      <article aria-label="add a new calendar item" class="search-button2"></article>
-      <article aria-label="search bar menu items" class="search-button3"></article>
+      <article aria-label="create a new profile" class="search-button1">
+        <i class="icon-user-plus"></i>
+      </article>
+      <article aria-label="add a new calendar item" class="search-button2">
+        <i class="icon-calendar"></i>
+      </article>
+      <article aria-label="search bar menu items" class="search-button3">
+        <i class="icon-th"></i>
+      </article>
     </section>
-    
+
     <section class="top-menu-section">
       <main class="title-main">
         <h1>Customer Service Representative</h1>
@@ -83,20 +91,20 @@
           </ul>
       </main>
     </section>
-    
+
     <section class="bottom-section">
       <section class="graphs-section">
         <main class="donut-graphs">
 
-
+<aside>
 <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
   <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="2"></circle>
+  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
 
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e" stroke-width="2" stroke-dasharray="85 15" stroke-dashoffset="75"></circle>
+  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#66B8BF" stroke-width="2" stroke-dasharray="85 15" stroke-dashoffset="75" stroke-linecap="round"></circle>
   <g class="chart-text">
     <text x="50%" y="50%" class="chart-number">
-      3154
+      3,154
     </text>
     <text x="50%" y="50%" class="chart-label">
       Applicants
@@ -106,11 +114,11 @@
 
 <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
   <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="2"></circle>
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#377bbc" stroke-width="2" stroke-dasharray="40 60" stroke-dashoffset="75"></circle>
+  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
+  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#409EF3" stroke-width="2" stroke-dasharray="40 60" stroke-dashoffset="75" stroke-linecap="round"></circle>
   <g class="chart-text">
     <text x="50%" y="50%" class="chart-number">
-      1546
+      1,546
     </text>
     <text x="50%" y="50%" class="chart-label">
       Interviews
@@ -120,8 +128,8 @@
 
 <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
   <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="2"></circle>
-  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="2" stroke-dasharray="20 80" stroke-dashoffset="75"></circle>
+  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4E8" stroke-width="2"></circle>
+  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A46CAC" stroke-width="2" stroke-dasharray="20 80" stroke-dashoffset="75" stroke-linecap="round"></circle>
   <g class="chart-text">
     <text x="50%" y="50%" class="chart-number">
       912
@@ -131,10 +139,12 @@
     </text>
   </g>
 </svg>
-
+</aside>
+  <button>TOTALS - Out of <strong>5,231</strong> views</button>
         </main>
         <main class="bar-graphs">
           <img alt="this is a bar graph" src="images/bar-graph-image.png">
+          <button>APPLICANTS/DAY</button>
         </main>
       </section>
       <hr class="hr1">
@@ -187,20 +197,22 @@
           <button class="media-button facebook-btn"><img src="images/facebook.png">Post to Facebook</button>
           <button class="media-button twitter-btn"><img src="images/twitter.png">Tweet this Job</button>
           <button class="media-button linked-btn"><img src="images/linkedin.png">Post to Linkedin</button>
-          <aside>
-            <img src="images/planet-icon.png"><h3>Link to this Job</h3>
+          <aside class="contacts-asides">
+            <h3><img aria-label="icon for links section" class="link-icons" src="images/link-website.png">Link to this Job</h3>
             <p>Lorem ipsum doler sit amet, consectetor adipis ding etc. Integer mollis neque eget vestibpond.</p>
             <input type="url" class="url-input" placeholder="http://loremipsum.dol/sit amet...">
             <button>Copy</button>
           </aside>
-          <aside>
-            <img src="images/widget-icon.png"><h3>Use the Button Widget</h3>
+          <hr>
+          <aside class="contacts-asides">
+            <h3><img aria-label="icon for links section" class="link-icons" src="images/widget-icon.png">Use the Button Widget</h3>
             <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
             <input type="text" class="widget-input" placeholder="<script type='text/javascript' s...">
             <button>Copy</button>
           </aside>
-          <aside>
-            <img src="images/airplane-icon.png"><h3>Upload Resumes by Email</h3>
+          <hr>
+          <aside class="contacts-asides">
+            <h3><img aria-label="icon for links section" class="link-icons" src="images/airplane-icon.png">Upload Resumes by Email</h3>
             <p>You can automatically upload multipe resumes to this job by emailing the address below.</p><input type="email" class="email-input" placeholder="tommytizzy@gmail.com"></aside>
         </main>
       </section> 
