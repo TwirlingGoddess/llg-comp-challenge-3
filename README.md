@@ -5,9 +5,9 @@ Here is the original comp:
 
 ![ORIGINAL](https://github.com/TwirlingGoddess/llg-comp-challenge-3/blob/master/static-comp-challenge-3.jpg)
 
-Here is my version:
+Here is the link to my version, shown below: (https://twirlinggoddess.github.io/llg-comp-challenge-3/)
 
-![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-3/blob/master/Screen%20Shot%202018-04-18%20at%202.25.03%20AM.png)
+![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-3/blob/master/Screen%20Shot%202018-04-19%20at%201.34.10%20PM.png)
 
 
 ## Static Comp Challenge 3
